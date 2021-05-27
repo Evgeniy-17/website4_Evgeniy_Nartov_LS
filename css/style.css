@@ -1,0 +1,89 @@
+html, body, div, span, applet, object, iframe,*/
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, img, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			b, u, i, center,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td,
+			article, aside, canvas, details, embed, 
+			figure, figcaption, footer, header, hgroup, 
+			menu, nav, output, ruby, section, summary,
+			time, mark, audio, video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+
+body {
+    padding: 20px;
+}
+div {
+    outline: 1px solid black;
+}
+.main {
+    background: lime;
+    width: 1300px;
+    
+}
+.cell1 {
+    display: flex;
+}
+.cell1_l {
+    background: blue;
+    flex:1 0 400px;
+    padding: 10px;
+}
+.cell2 {
+    display: flex;
+    background: yellow;
+    justify-content: space-between
+   
+}
+.cell2_l {
+    flex:0 0 400px;
+    padding: 10px;
+    
+}
+.cell2_m {
+    flex:1 0 250px;
+    text-align: center;
+    
+}
+
+.cell3 {
+    display: flex;
+    width:  1300px;
+    
+}
+.cell3_left {
+    flex:0 0 800px;
+    justify-content: center;
+}
+.cell3_right {
+    flex:1 0 500px;
+    justify-content: center;
+}
+.cell3_left_b {
+    display: flex;
+    align-items: center;
+}
+.cell3_left_b_left {
+    flex:0 0 400px;
+}
+.cell3_left_b_right {
+    flex:0 0 400px;
+}
+.cell3_left_b_left_b {
+    display: flex;
+}
+.cell3_left_b_left_b_left {
+    flex:0 0 200px;
+}
+.cell3_left_b_left_b_right {
+    flex:0 0 200px;
+}
